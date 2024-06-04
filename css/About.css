@@ -1,0 +1,15 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.Main{
+    /*height: 100%;*/
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.Main .AboutInfo div{
+    width:50%
+}
