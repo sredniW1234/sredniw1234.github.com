@@ -13,3 +13,18 @@ html, body{
 .Main .AboutInfo div{
     width:50%
 }
+
+.Smoothlink{
+    transition: .2s;
+    text-decoration-line: underline;
+    text-decoration-thickness: from-font;
+    text-decoration-color: red;
+    font-weight: bold;
+    color: black;
+}
+
+.Smoothlink:hover{
+    transition: .2s;
+    font-weight: lighter;
+    font-size: 115%;
+}
