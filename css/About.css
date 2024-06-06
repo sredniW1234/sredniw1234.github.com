@@ -14,17 +14,29 @@ html, body{
     width:50%
 }
 
+.Main .AboutInfo p{
+    font-family: "Times New Roman", serif;
+    font-size: xxx-large;
+}
+
+
 .Smoothlink{
     transition: .2s;
     text-decoration-line: underline;
     text-decoration-thickness: from-font;
     text-decoration-color: red;
-    font-weight: bold;
-    color: black;
+    /*font-weight: bold;*/
+    text-shadow: 0 0 0 currentColor;
+    color: currentColor;
+    letter-spacing: 2px;
 }
 
 .Smoothlink:hover{
-    transition: .2s;
-    font-weight: lighter;
-    font-size: 115%;
+    transition: letter-spacing .3s, text-shadow 0.2s;
+    /*transition-property: font-weight;*/
+    /*transition: letter-spacing .3s;*/
+    /*font-weight: lighter;*/
+    text-shadow: -1px -1px 0.5px currentColor, 1px -1px 0.5px currentColor, -1px 1px 0.5px currentColor, 1px 1px 0.5px currentColor;
+
+    letter-spacing: 3px;
 }
