@@ -9,7 +9,7 @@ body{
 
 #p2{
     margin-top: 10%;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
 
 .contrasting{
@@ -18,5 +18,15 @@ body{
 }
 
 #arrow_end{
-    margin-bottom: 10%;
+    margin-bottom: 2.5%;
+}
+
+.card_style{
+    min-width: 30%;
+    width: 40vw;
+    max-width: 90%;
+}
+
+.basic_questions{
+        marquee-style: slide;
 }
