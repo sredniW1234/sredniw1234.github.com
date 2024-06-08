@@ -1,22 +1,47 @@
-html{
-    /*height: 100%;*/
-}
-body{
-    background: linear-gradient(to bottom, white 25.5vh, black 100vh) no-repeat scroll;
-    /*height:100%*/
-    /*background: linear-gradient(to left, #333, #333== 50%, #eee 75%, #333 75%);*/
-}
-
-#p2{
-    margin-top: 10%;
-    margin-bottom: 15%;
-}
-
 .contrasting{
     color:white;
     mix-blend-mode: difference;
 }
 
-#arrow_end{
-    margin-bottom: 10%;
+@media (min-width: 1500px){
+    body{
+        background: linear-gradient(to bottom, white 25.5vh, black 100vh) no-repeat scroll;
+    }
+
+    #p2{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    #arrow_end{
+        margin-bottom: 2.5%;
+    }
+
+    .card_style{
+        min-width: 30%;
+        width: 40vw;
+        max-width: 90%;
+    }
 }
+
+body{
+    background: linear-gradient(to bottom, white 25.5vh, black 120vh) no-repeat scroll;
+}
+
+#p2{
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+#arrow_end{
+    margin-bottom: 2%;
+}
+
+.card-style{
+    min-width: 30%;
+    width: 30vw;
+    max-width: 80%
+}
+
+.basic_questions
+
