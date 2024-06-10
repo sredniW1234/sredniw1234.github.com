@@ -2,6 +2,11 @@
     color:white;
     mix-blend-mode: difference;
 }
+
+body{
+    background: linear-gradient(#ffffff 15rem, #82e394 30rem);
+}
+
 @keyframes balance {
     from{
         transform:rotate(20deg) translate(0, -12px);
@@ -27,6 +32,21 @@
     height: 0;
     border-style: solid;
     border-width: 0 15px 25px 15px;
-    border-color: transparent transparent #000000 transparent;
+    border-color: transparent transparent currentColor transparent;
     transform: rotate(0deg) translate(225%, 100%);
+}
+
+.card-button{
+    transition: ease-out 200ms;
+    color: blue;
+    background-color: darkgray;
+    border-color: #0a53be;
+    mix-blend-mode: darken;
+}
+
+.card-button:hover{
+    transition: ease-out 350ms;
+    color: black;
+    background-color: darkgreen;
+    border-color: #0a3622;
 }
