@@ -10,12 +10,12 @@ body{
 @keyframes balance {
     from{
         transform:rotate(20deg) translate(0, -12px);
-        transform-origin: 5.5rem 1.9rem;
+        transform-origin: 50% 40%;
 
     }
     to{
         transform:rotate(-20deg) translate(0, -12px);
-        transform-origin: 5.5rem 1.9rem;
+        transform-origin: 50% 40%;
     }
 }
 
@@ -33,7 +33,7 @@ body{
     border-style: solid;
     border-width: 0 15px 25px 15px;
     border-color: transparent transparent currentColor transparent;
-    transform: rotate(0deg) translate(225%, 100%);
+    transform: rotate(0deg) translate(225%, 75%);
 }
 
 .card-button{
