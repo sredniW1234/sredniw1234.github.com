@@ -4,7 +4,7 @@
 }
 
 body{
-    background: linear-gradient(#ffffff 15rem, #82e394 30rem);
+    background: linear-gradient(whitesmoke 15rem, #82e394 30rem);
 }
 
 @keyframes balance {

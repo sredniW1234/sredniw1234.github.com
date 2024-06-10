@@ -5,7 +5,7 @@
 
 @media (min-width: 1500px){
     body{
-        background: linear-gradient(to bottom, white 25.5vh, black 100vh) no-repeat scroll;
+        background: linear-gradient(to bottom, whitesmoke 25.5vh, black 100vh) no-repeat scroll;
     }
 
     #p2{
@@ -25,7 +25,7 @@
 }
 
 body{
-    background: linear-gradient(to bottom, white 25.5vh, black 120vh) no-repeat scroll;
+    background: linear-gradient(to bottom, whitesmoke 25.5vh, black 120vh) no-repeat scroll;
 }
 
 #p2{
