@@ -23,6 +23,7 @@ img{
 .section{
     margin: 3%;
     padding-left: 1rem;
+    padding: 1.5rem;
     border: 1px solid black;
     border-radius: 2rem;
 }
