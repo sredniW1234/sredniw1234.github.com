@@ -27,3 +27,12 @@ img{
     border-radius: 2rem;
     background: lightgray;
 }
+.sub-section{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background: whitesmoke;
+    max-width: 43vw;
+
+}

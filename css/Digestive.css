@@ -1,7 +1,6 @@
 body{
-    background: linear-gradient(darkred , whitesmoke 30%);
+    background-image: linear-gradient(darkred, whitesmoke 55vh calc(100% - 55vh), darkred);
 }
-
 
 img{
     width: 10vw;
