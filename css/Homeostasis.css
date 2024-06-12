@@ -50,3 +50,9 @@ body{
     background-color: darkgreen;
     border-color: #0a3622;
 }
+
+.img{
+    width: 30%;
+    height: 30%;
+    vertical-align: center;
+}

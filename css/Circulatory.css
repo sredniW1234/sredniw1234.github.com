@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(darkred , whitesmoke 30%);
+    background-image: linear-gradient(darkred, whitesmoke 55vh calc(100% - 55vh), darkred);
 }
 
 
@@ -22,8 +22,29 @@ img{
 
 .section{
     margin: 3%;
-    padding-left: 1rem;
     padding: 1.5rem;
     border: 1px solid black;
     border-radius: 2rem;
+    background: lightgray;
+}
+
+.sub-section{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background: whitesmoke;
+    max-width: 43vw;
+
+}
+
+.contrasting{
+    color:white;
+    mix-blend-mode: difference;
+}
+
+.vessels{
+    background-color: darkred;
+    color:white;
+    box-shadow: 0 0 5px 2px black;
 }

@@ -1,7 +1,6 @@
 body{
-    background: linear-gradient(darkred , whitesmoke 30%);
+    background-image: linear-gradient(darkred, whitesmoke 55vh calc(100% - 55vh), darkred);
 }
-
 
 img{
     width: 10vw;
@@ -22,7 +21,8 @@ img{
 
 .section{
     margin: 3%;
-    padding-left: 1rem;
+    padding: 1.5rem;
     border: 1px solid black;
     border-radius: 2rem;
+    background: lightgray;
 }
